@@ -47,8 +47,8 @@ app.post("/", (req, res) => {
     method: "POST",
     headers: {
       Authorization: "tasyurek2 " + API_KEY
-    }
-    //body: jsonData
+    },
+    body: jsonData
   };
 
   request(options, (error, response, body) => {
